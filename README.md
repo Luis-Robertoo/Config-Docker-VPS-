@@ -14,14 +14,6 @@
 3. Criar chaves SSHs na VM.
 
 
-
-
-
-
-
-
-
-
 ****
 ## Instalando NGINX.
 * sudo apt update
@@ -33,6 +25,12 @@
 * sudo ufw enable (iniciando firewall)
 * Reinicialize a VM.
 * Deve ter um site simples rodando da porta 80.
+
+****
+## Configuração basica NGINX.
+* cd /var/www (Pasta com os web sites estaticos - usar o SUDO para editar)
+* cd /etc/nginx/sites-enabled (Pasta com as configurações - usar o SUDO para editar)
+* sudo service nginx restart (Reinicia o NGINX para usar as novas configurações)
 
 ****
 ## Removendo NGINX completamente.
