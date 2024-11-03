@@ -26,6 +26,12 @@
 ## Instalando NGINX.
 * sudo apt update
 * sudo apt install nginx
+* sudo apt-get install ufw (instalando firewall)
+* sudo ufw allow 22/tcp (liberando firewall)
+* sudo ufw allow 80/tcp (liberando firewall)
+* sudo ufw allow 443/tcp (liberando firewall)
+* sudo ufw enable (iniciando firewall)
+* Reinicialize a VM.
 * Deve ter um site simples rodando da porta 80.
 
 ****
