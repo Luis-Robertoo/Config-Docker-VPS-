@@ -1,6 +1,6 @@
 # CI-CD em VPS
 
-## Aqui contem instruções para facilitar o deploy automatico em VPS ou VMs utilizando tecnologias como: GITHUB Actions, SSH, Docker.
+## Aqui contem algumas instruções para facilitar a configuração e o deploy em um VPS ou VMs utilizando tecnologias como: GITHUB Actions, SSH, Docker.
 
 ### Informações necessarias para iniciar:
 
