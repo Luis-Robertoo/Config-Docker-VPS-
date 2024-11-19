@@ -12,4 +12,7 @@
 ### [ NGINX - Instalando, configurando e removendo.](Nginx.md)
 
 ****
+### [ DOCKER FILE](./LayoutsDocker/Docker-file.md)
+
+****
 ### [ DOCKER COMPOSE](./LayoutsDocker/DockerCompose.md)
