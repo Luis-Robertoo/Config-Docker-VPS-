@@ -35,7 +35,5 @@ jobs:
       - name: listando arquivos.
         run: ls
         
-      - name: atualizando ubuntu.
-        run: |
-          apt-get update,
-          apt-get upgrade.
+      - name: acessando ssl?.
+        run: openssl s_client -connect 8.8.8.8:20
