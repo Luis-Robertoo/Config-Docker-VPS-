@@ -36,4 +36,4 @@ jobs:
         run: ls
         
       - name: Ping in 8.8.8.8.
-        run: ping 8.8.8.8
+        run: ping -c 10 8.8.8.8
