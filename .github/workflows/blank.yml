@@ -35,5 +35,7 @@ jobs:
       - name: listando arquivos.
         run: ls
         
-      - name: Ping in 8.8.8.8.
-        run: ping -c 10 8.8.8.8
+      - name: atualizando ubuntu.
+        run: |
+          apt-get update,
+          apt-get upgrade.
